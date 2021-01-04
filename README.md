@@ -397,7 +397,7 @@ GBG发布研究报告显示，95%的澳大利亚金融企业在关注数字身�
 
  2.输入相关信息
 
-![img](https://i.loli.net/2021/01/04/JXbzP5h2oVYO1BK.jpg)
+![image-20210104231017328](https://i.loli.net/2021/01/04/EzSaPJDOiHvqkoR.png)
 
  3.存入成功后返回true
 
