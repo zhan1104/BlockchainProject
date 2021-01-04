@@ -389,7 +389,43 @@ GBG发布研究报告显示，95%的澳大利亚金融企业在关注数字身�
 个人证明服务，个人只需持有证照的电子文本和数码指纹比对，即可辨别真伪，免除个人
 资料通过政府交换的烦琐流程。
 
-# 8. 总结
+#### **8.** **前端展示**
+
+ 1.点击链接到钱包账户
+
+![img](https://i.loli.net/2021/01/04/jHNTJQvGwDARxYz.jpg)
+
+ 2.输入相关信息
+
+![img](https://i.loli.net/2021/01/04/JXbzP5h2oVYO1BK.jpg)
+
+ 3.存入成功后返回true
+
+![img](https://i.loli.net/2021/01/04/yWSOvQBgNF4o2El.jpg)
+
+4. 获取代币总数
+
+![img](https://i.loli.net/2021/01/04/g18scthiopJz7GR.jpg)
+
+5. 添加代币数量（只有合约所有者能使用）
+
+![img](https://i.loli.net/2021/01/04/qIsHgGpCZWANw27.jpg)
+
+6. 进行转账交易
+
+![img](file:///C:/Users/dell/AppData/Local/Temp/msohtmlclip1/01/clip_image024.jpg)
+
+7. 查询指定账户余额
+
+![img](https://i.loli.net/2021/01/04/YxAIUCF72Vf3nXL.jpg)
+
+8. 输入id查询信息（需有代币）
+
+![img](https://i.loli.net/2021/01/04/nXyximbqgIjUFa7.jpg)
+
+
+
+# 9. 总结
 
 基于对数字身份系统的充分理解，再结合区块链技术的特点——去中心化、点对点网络、时间戳、不可篡改、共识机制、智能合约等等，可以发现，数字身份和区块链技术之间有着巧妙的联系，在区块链时代，两者缺一不可，相互协同，互相促进。目前来看，发展数字身份系统是必然的，区块链技术在某种程度上也提供了一个相对可信的方案。
 
