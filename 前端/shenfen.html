@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="web3.min.js"></script>
+    <link rel="" href="" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="">
+    <title>身份
+    </title>
+</head>
+
+<body>
+    <h2>江西软件职业技术大学 区块链学院</h2>
+
+    <button class="enableEthereumButton">Enable Ethereum</button>
+    <h5>Account: <span class="showAccount"></span></h5>
+    <hr />
+
+    <hr>
+    <p>
+
+        姓名：<br>
+        <input type="text" value="" id="addxingming" placeholder="请输入姓名"><br>
+        性别：<br>
+        <input type="text" value="" id="addxingbie" placeholder="请输入性别"><br>
+        民族：<br>
+        <input type="text" value="" id="addminzu" placeholder="请输入民族"><br>
+        家庭地址：<br>
+        <input type="text" value="" id="addjiatingdizhi" placeholder="请输入家庭地址"><br>
+        身份证号码:<br>
+        <input type="text" value="" id="addshenfenzhenghaoma" placeholder="请输入身份证号码"><br>
+        出生日期:<br>
+        <input type="text" value="" id="addchushengriqi" placeholder="请输入出生日期"><br>
+        文化程度:<br>
+        <input type="text" value="" id="addwenhuachengdu" placeholder="请输入文化程度"><br>
+        id:<br>
+        <input type="text" value="" id="addid" placeholder="请输入id"><br>
+        <button onclick="tianjia()">addItem</button>
+        <span class="showadd"></span>
+
+    </p><hr>
+
+    <div class=form-break></div>
+    <P><button class="getTotalSupply">代币总数</button><span class="TotalSupply"></span><br></P>
+    <p>
+        <input type="text" value="" id="addTotalSupply" placeholder="输入添加代币数量(只有合约所有者能使用)">
+        <button onclick="add()">加代币</button>
+    </p>
+
+    <p>
+        <input type="text" value="" placeholder="输入地址" id="recipient">
+        <input type="text" value="" placeholder="输入金额" id="amount">
+        <button onclick="transfer()">转账</button>
+    </p>
+
+    <p>
+        <input type="text" value="" id="getBalance" placeholder="输入需查询地址">
+        <button onclick="getBalance()">查询余额</button>
+        <span class="showBalance"></span>
+    </p>
+
+    <p>
+        <input type="text" value="" id="chaxun" placeholder="输入查询人的id">
+        <button onclick="chaxun()">查询</button>
+        <span class="showchaxun"></span>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
