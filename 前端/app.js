@@ -273,8 +273,8 @@ var contractAbi = [
 ]
 
 // 0x0141de3f0aF41513b1845e99Bbc80A5c7bb4AbaC  本地
-// rinkeby
-var contract = new web3.eth.Contract(contractAbi, "0x03C613Bd720606Ba46c9D750571038232C99628D");
+// rinkeby 0xC9D7ADB777cC72508b0bbda410Dffd2Caf6cf805
+var contract = new web3.eth.Contract(contractAbi, "0xC9D7ADB777cC72508b0bbda410Dffd2Caf6cf805");
 
 console.log("contract MyDapp", contract)
 
@@ -331,7 +331,7 @@ function transfer() {
 
 function getBalance() {
 	let resAdd=document.getElementById('getBalance').value;
-	console.log("查询地址为："+ resAdd);
+	//console.log("查询地址为："+ resAdd);
 	contract.methods.balanceOf(resAdd).call({from:accounts[0]}).then(
 		function (result) {
 			$('.showBalance').html(result)
@@ -353,7 +353,7 @@ function tianjia() {
 	contract.methods.tianjia(xingming,xingbie,minzu,jiatingdizhi,shenfenzhenghaoma,chushengriqi,wenhuachengdu,ID).send({from:accounts[0]}).then(
 
 		function (result) {
-			console.log("add_result:",result);
+			//console.log("add_result:",result);
 			document.getElementById("addxingming").value="";
 			document.getElementById("addxingbie").value="";
 			document.getElementById("addminzu").value="";
@@ -373,15 +373,11 @@ function chaxun() {
 	let chaxunid = document.getElementById('chaxun').value;
 	//console.log("查询TokenId为：" + resItemId);
 
-	contract.methods.chaxun(chaxunid).send({from: accounts[0]}).then(
-		function (result2) {
-			if (result2[3] == ""){
-				$('.showchaxun').html("<p>"+ "身份不存在" + "</p>")
-			} else {
+
 
 	contract.methods.chaxun(chaxunid).call({from: accounts[0]}).then(
 		function (result) {
-			console.log(result);
+			//console.log(result);
 			$('.showchaxun').html("<p>"
 				+ "姓名：" +result[0] + " "
 				+ "性别：" +result[1] +" "
@@ -391,7 +387,4 @@ function chaxun() {
 				+"文化程度:" + result[5] + " "
 				+"</p>")
 					});
-			}
-
-		});
 }
